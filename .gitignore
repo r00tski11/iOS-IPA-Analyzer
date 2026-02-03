@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.eggs/
+*.egg-info/
+*.egg
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytype/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Project-specific - Test files and generated reports
+*.ipa
+*.xcarchive/
+report.html
+report.pdf
+report.json
+*.sarif
+
+# Internal documentation
+*.md.bak
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.env
+.env*
+secrets.txt
+credentials.txt
+tokens.txt
+
+# Build artifacts
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local config
+.local/
